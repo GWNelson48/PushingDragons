@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a2a4d36506a92e4796c4ec8f63c2ba3, type: 3}
+  m_Name: Boss
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 4436844810787713027, guid: eda03c114b08d214cb1344449b4432aa, type: 3}
+  pathPrefab: {fileID: 8338624221191321774, guid: 0cfa559d3dcdeb24e98b88f4c19f1f4d, type: 3}
+  moveSpeed: 2
+  timeBetweenEnemySpawns: 1
+  spawnTimeVariance: 0
+  minimumSpawnTime: 0.2

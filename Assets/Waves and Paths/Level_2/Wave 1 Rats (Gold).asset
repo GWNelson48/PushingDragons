@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a2a4d36506a92e4796c4ec8f63c2ba3, type: 3}
+  m_Name: Wave 1 Rats (Gold)
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 4592679569860507487, guid: dcec2f2da444d5d439c2d81a791c50d9, type: 3}
+  - {fileID: 4592679569860507487, guid: dcec2f2da444d5d439c2d81a791c50d9, type: 3}
+  - {fileID: 4592679569860507487, guid: dcec2f2da444d5d439c2d81a791c50d9, type: 3}
+  - {fileID: 4592679569860507487, guid: dcec2f2da444d5d439c2d81a791c50d9, type: 3}
+  - {fileID: 4592679569860507487, guid: b3435114cce77fc4bb1583723efbb338, type: 3}
+  pathPrefab: {fileID: 6190659208098580402, guid: 815e049dbedff99429789ec92961bc78, type: 3}
+  moveSpeed: 2
+  timeBetweenEnemySpawns: 1
+  spawnTimeVariance: 0
+  minimumSpawnTime: 0.2

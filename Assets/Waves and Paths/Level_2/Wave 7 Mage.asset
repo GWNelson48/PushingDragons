@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a2a4d36506a92e4796c4ec8f63c2ba3, type: 3}
+  m_Name: Wave 7 Mage
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 4592679569860507487, guid: 4063498aabf9fe849b1a6763216c3a40, type: 3}
+  - {fileID: 4592679569860507487, guid: 4063498aabf9fe849b1a6763216c3a40, type: 3}
+  - {fileID: 4592679569860507487, guid: cc8de997567d232438aa69c2ed6ad089, type: 3}
+  pathPrefab: {fileID: 4322275590981674949, guid: a2328fe7757c33c41941ef59c78453fb, type: 3}
+  moveSpeed: 2
+  timeBetweenEnemySpawns: 1
+  spawnTimeVariance: 0
+  minimumSpawnTime: 0.2
